@@ -8,7 +8,7 @@ import { hostname } from "node:os";
 
 const bare = createBareServer("/bare/");
 const app = express();
-
+// rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 // Load our publicPath first and prioritize it over UV.
 app.use(express.static(publicPath));
 // Load vendor files last.
@@ -40,7 +40,7 @@ server.on("upgrade", (req, socket, head) => {
 });
 
 let port = parseInt(process.env.PORT || "");
-
+// idurio3uroihriohsuihuigsgsfgsggggggsgsg
 if (isNaN(port)) port = 8080;
 
 server.on("listening", () => {
@@ -61,6 +61,7 @@ server.on("listening", () => {
 // https://expressjs.com/en/advanced/healthcheck-graceful-shutdown.html
 process.on("SIGINT", shutdown)
 process.on("SIGTERM", shutdown)
+// 1947017459817981780673895273523895623895369856789235792385623956892
 
 function shutdown() {
   console.log('SIGTERM signal received: closing HTTP server')
