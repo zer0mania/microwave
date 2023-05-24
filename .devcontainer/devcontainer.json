@@ -1,5 +1,5 @@
 {
-    "name": "Ultraviolet-Devel",
+    "name": "Ult",
     "build": {
       "dockerfile": "../docker/Dockerfile",
       "target": "devel",
